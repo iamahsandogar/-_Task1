@@ -1,0 +1,310 @@
+
+@media only screen and (max-width: 320px) {
+
+    body { 
+       font-size: 2em; 
+    }
+ 
+ }
+header{
+    background-color: rgb(255, 170, 0);
+    border: 3px solid rgb(255, 170, 0);
+}
+
+.logo{
+    padding-left: 5px;
+}
+
+
+.navbar{
+    background-color: rgb(255, 170, 0);
+    display:flex;
+    padding: 10px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: large;
+    border-radius: 2px;
+}
+
+.navbar-nav .nav-link{
+    color: #ffffff; /* Custom color for the navbar links */
+}
+
+.navbar-nav .nav-link:hover{
+    color: #000000; /* Custom color for the navbar links */
+}
+
+.click{
+    position: absolute;
+    width: 20rem;
+    top: 60%;
+    left: 50%;
+    background-color: rgb(255, 170, 0);
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.submit{
+    background-color:  black;
+    color: white;
+    border: white;
+    border-radius: 2px;
+}
+
+.banner{
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+.banner h1{
+    white-space: pre;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.marquee-text {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    background: var(--background);
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+}
+
+.marquee__list {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 25s infinite linear;
+    animation-delay: 4s;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    background-color: black;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sale{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: rgb(255, 170, 0);
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 5px;
+}
+
+.collection{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background-color: rgb(218, 113, 113);
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: black;
+    border-radius: 5px;
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.contact-column {
+    flex: 1;
+    padding: 20px;
+}
+.contact-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.contact-heading {
+    font-weight: bold;
+}
+
+.about {
+    flex: 1;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Georgia', serif;
+}
+.about-img {
+    background-color: #000000;
+    text-align: center;
+}
+.about_us{
+    width: 350px;
+    height: 300px;
+}
+
+footer{
+    display: block;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    padding: 20px;
+    display: grid;
+}
+.h5{
+    color: #000000;
+}
+@media (max-width: 600px) {
+    .footer col-3 {
+        flex: 100%;
+    }
+    .banner{
+        flex: 100%;
+    }
+    .slogan{
+        flex: 100%;
+    }
+}
+
+.row{
+    justify-content: right;
+}
+.bi:hover {
+    opacity: 0.7;
+}
+
+img{
+    display: block;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.black-phone-symbol {
+    fill: rgb(0, 0, 0); /* Ensures the phone symbol is dark black */
+    width: 20px; /* Adjust the size as needed */
+    height: 20px;
+}
+
+.black-email-symbol {
+    fill: black; /* Ensures the email symbol is dark black */
+    width: 20px; /* Adjust the size as needed */
+    height: 20px;
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+.instagram-icon {
+    color: #C13584; /* Instagram's color */
+}
+.facebook-icon {
+    color: #1877F2; /* Facebook's color */
+}
+.youtube-icon {
+    color: #FF0000; /* YouTube's color */
+}
+.linkedin-icon {
+    color: #1c70a5; /* Twitter's color */
+}
+.snapchat-icon {
+    color: #ffd000; /* Snapchat's color */
+}
+.google-icon {
+    color: #DB4437; /* Google's color */
+}
+
+
+hr.solid {
+    border-top: 3px solid #000000;
+  }
+
+#payment{
+    background-color: (255, 170, 0);
+    max-width:0cqw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company{
+    text-align: left;
+    color: black;
+}
+
+.visa-icon {
+    color: #1A1F71; /* Visa blue */
+    font-size: 35px;
+    float:right;
+    margin-right: 10px;
+}
+.mastercard-icon {
+    color: #EB001B; /* MasterCard red */
+    font-size: 35px;
+    float: right;
+    margin-right:20px;
+}
+
+#search{
+    background-color: #000000;
+}
+
+.price {
+    background-color: #f8d7da; /* Light red background */
+    padding: 10px;
+    border-radius: 5px;
+    color: #ff0019; /* Dark red text */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
